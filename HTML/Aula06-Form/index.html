@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <h1>Formulário &#11088</h1>
+
+    <form action="" autocomplete="on" name="formulario" action="mailton:annaclaralimadiniz@hotmail.com">
+        <label for="text">Nome do usuário</label>
+        <input type="text" autocomplete="on" required>
+
+        <br>
+        <br>
+
+        <label for="number">Número de telefone</label>
+        <input type="number" autocomplete="on" required>
+
+        <br>
+        <br>
+
+        <label for="number">CEP</label>
+        <input type="number" required>
+
+        <br>
+        <br>
+        <fieldset>
+            <legend>Escolha sua Música</legend> <!--Radio e Checkbox-->
+            <label for="radio">Maria - Justin Bieber</label>
+            <input type="radio" name="song">
+            <label for="radio">Story of us - Taylor Swift</label>
+            <input type="radio" name="song">
+            <label for="radio">Want U Back - Cherloyd</label>
+            <input type="radio" name="song">
+            <label for="radio">Touch My Body - Mariah Carey</label>
+            <input type="radio" name="song">
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Sabores de Sacolé</legend>
+            <label for="Checkbox">Morango</label>
+            <input type="checkbox">
+            <br>
+            <label for="checkbox">Leite ninho com nutella</label>
+            <input type="checkbox">
+            <br>
+            <label for="checkbox">Paçoca</label>
+            <input type="checkbox">
+            <br>
+            <label for="checkbox">Açai</label>
+            <input type="checkbox">
+        </fieldset>
+
+        <br>
+        <br>
+
+        <!--Tipo Range-->
+        <label for="range">0</label>
+        <input type="range">
+        <label for="range">5</label>
+
+        <br>
+        <br>
+        <!--Data List-->
+        <label for="Filmes">Escolha seu filme</label>
+        <input list="Filmes" name="Filmes">
+
+        <datalist id="Filmes">
+            <option value="Culpa Mia">
+            <option value="After">
+            <option value="Belo Desastre">
+            <option value="Purple Hearts">
+            <option value="Monte Carlo">
+        </datalist>
+
+        <br>
+        <br>
+        <!--Select-->
+        <label for="Sorvete">Qual seu sorvete favorito?</label>
+        <select name="Sorvete" id="Sorvete">
+            <option value="Selecione">Selecione</option>
+            <option value="Pistache">Pistache</option>
+            <option value="Amora">Amora</option>
+            <option value="Avelã e Leite">Avelã e Leite</option>
+            <option value="Cheesecake">Cheesecake</option>
+        </select>
+
+        <br>
+        <br>
+        <!--Text Area-->
+        <!--<input type="text" name="programador">-->
+        <textarea name="programador" cols="20" rows="10">Fale mais sobre o seu sorvete favorito...</textarea>
+
+        <br>
+        <br>
+
+        <!--fieldset e legend-->
+        <fieldset>
+            <legend>Fale sobre seu filme favorito</legend>
+            <label for="">Filmes</label>
+            <input type="text" name="">
+            <textarea name="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Fale sobre sua pizza favorita</legend>
+            <label for="">Pizzas</label>
+            <input type="text" name="">
+            <textarea name="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset >
+            <legend>Fale sobre seu chocolate favorito</legend>
+            <label for="">Chocolates</label>
+            <input type="text">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <!--Table-->
+
+        <button>Enviar!</button>
+
+    </form>
+
+</body>
+
+</html>
