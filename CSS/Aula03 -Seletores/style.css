@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    background-color: #FFFAFA;
+    font-family: Rubik;
+}
+.pt1{
+    color: #C71585;
+}
+
+#sushi, #pipoca{
+    color: 	#FF1493;
+}
+
+#chocolate, #macarrão{
+    color: 	#FF69B4;
+}
+
+section p{
+    color: #FFC0CB	;
+}
