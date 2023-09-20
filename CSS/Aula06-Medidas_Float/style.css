@@ -1,8 +1,28 @@
+/* *{
+    font-size: 40px;
+}
+
 #pai{
-    font-size: 16px;
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
 }
 
 p{
-    font-size: 2em;
+    background-color: aqua;
+    width: 50vw;
+    height: 50%;
+} */
+
+img{
+    width: 250px;
+    height: 300px;
 }
 
+#imagem1{
+    float: right;   
+}
+
+#imagem2{
+    float: left;
+}
