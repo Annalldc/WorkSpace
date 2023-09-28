@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 100px;
+    justify-items: center;
+    justify-content: start;
+}
+
+.item-1{
+   border: 1px solid #FF1493;
+}
+
+.item-2{
+    border: 1px solid 	#00CED1;
+}
+
+.item-3{
+    border: 1px solid #FFA500;
+}
+
+.item-4{
+    border: 1px solid 	#32CD32;
+}
+
+.item-5{
+    border: 1px solid 	#8B0000;
+}
+
+.item-6{
+    border: 1px solid 	#8A2BE2;
+}
+
+.item-7{
+    border: 1px solid #DC143C;
+}
+
+.item-8{
+    border: 1px solid 	#87CEEB;
+}
