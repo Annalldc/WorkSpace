@@ -38,3 +38,7 @@ var osDeVerdadeEuSeiQuemSao = false;
 
 //  Valores Vazios
 // Conversão Automática, operação com tipos diferentes de dados, EX: 8*null
+
+console.log("5" + 1);
+
+// Operadores Aritiméticos
