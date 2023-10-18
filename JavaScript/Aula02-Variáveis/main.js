@@ -30,4 +30,11 @@ console.log(texto + texto2);
 var Concatenar = texto + "\n" + texto2;
 console.log(Concatenar);
 
+console.clear
 
+// Valores Boleanos (True ou False)
+
+var osDeVerdadeEuSeiQuemSao = false;
+
+//  Valores Vazios
+// Conversão Automática, operação com tipos diferentes de dados, EX: 8*null
