@@ -30,7 +30,7 @@ console.log(texto + texto2);
 var Concatenar = texto + "\n" + texto2;
 console.log(Concatenar);
 
-console.clear
+console.clear()
 
 // Valores Boleanos (True ou False)
 
@@ -41,4 +41,19 @@ var osDeVerdadeEuSeiQuemSao = false;
 
 console.log("5" + 1);
 
-// Operadores Aritiméticos
+// INCREMENTO 
+var incremento = 2;
+
+//incremento = incremento -1
+incremento--
+console.log(incremento);
+
+console.clear()
+
+var imparPar = 3%2
+console.log("Se o resultado for 1 então o número é impar se o resultado for 0 então é par, esse é o resultado" + imparPar);
+
+var Comparacao = 20>3
+console.log(Comparacao);
+
+console.clear()
