@@ -57,3 +57,10 @@ var Comparacao = 20>3
 console.log(Comparacao);
 
 console.clear()
+
+var doisSinaisDeIgual = 3 === 2;
+console.log(doisSinaisDeIgual)
+
+var aleatorio = 5;
+console.log(typeof aleatorio);
+
