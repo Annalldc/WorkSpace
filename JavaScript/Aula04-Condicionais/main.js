@@ -46,3 +46,33 @@ if(morangoMaduro == true){
 }else{
     console.log("Seu morango está estragado")
 }
+
+console.clear()
+
+let pipoca = 10
+let hamburguer = 56
+
+if(pipoca > hamburguer){
+    console.log(pipoca + " é melhor")
+}else{
+    console.log(hamburguer + " é melhor")
+}
+
+console.clear()
+//switch-case
+let mes = 3
+
+switch(mes){ //expressao
+    case mes == 3:
+        console.log("Março")
+        break;
+    case mes == 4:
+        console.log("Abril")
+        break;
+    case mes == 10:
+        console.log("Outubro")
+        break;
+    case mes == 12:
+        console.log("Dezembro")    
+        break;
+}
