@@ -76,3 +76,5 @@ switch(mes){ //expressao
         console.log("Dezembro")    
         break;
 }
+
+console.clear()
