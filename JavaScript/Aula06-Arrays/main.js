@@ -48,3 +48,8 @@ console.log(novaInformacao)
 let retirarPrimeiroElemento = numArray.shift()
 console.log(numArray)
 console.log(retirarPrimeiroElemento)
+
+// Método para add no início
+let inseririnicio = numArray.unshift("pipoca")
+console.log(numArray)
+console.log(inseririnicio)
