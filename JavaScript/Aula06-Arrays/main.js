@@ -42,4 +42,9 @@ console.log(numArray)
 //Método ADD nova informação no final do Array
 let novaInformacao = numArray.push("Kiwi")
 console.log(numArray)
-console.log(novaInformacao)
+console.log(novaInformacao)  
+
+// Método para retirar primeiro elemento
+let retirarPrimeiroElemento = numArray.shift()
+console.log(numArray)
+console.log(retirarPrimeiroElemento)
