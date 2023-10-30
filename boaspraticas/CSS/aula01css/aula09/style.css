@@ -1,0 +1,19 @@
+
+#conteiner {
+    border: solid mediumaquamarine;
+    height: 140px;
+ display: flex; 
+/* flex-direction: row-reverse;*/ /* a propriedade flex direction da direções para o formato da sequencia das divs
+ */
+ /*flex-wrap: wrap-reverse; /* o valor wrap evita que estore o limite da tela e manda td para tela de baixo/*/
+ justify-content: center;
+ align-items: center
+ 
+ 
+ 
+ 
+ ; 
+ } 
+.filho{
+    border: 1px solid; color: rgb(21, 31, 31); 
+}

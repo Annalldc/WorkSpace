@@ -1,0 +1,14 @@
+body{
+ background-color:  #b3e9f3;
+ font-family: 'Roboto Mono', monospace;
+ font-size: 1rem;
+ font-weight: 700;
+
+}
+h2{
+    background-color:  #6590d1; 
+    text-shadow: #48789f 3px 3px 3px;
+}
+img{
+    width: 500px; height: 300px;
+}
