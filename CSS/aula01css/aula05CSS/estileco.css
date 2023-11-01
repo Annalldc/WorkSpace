@@ -1,0 +1,31 @@
+body{
+    background-color: #f294d9; font-size: medium; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+p{
+    color: aliceblue;
+    border: solid 2px; color:#ed0b07 ;
+}
+
+.xucro{
+    border: solid #07ede5 1px;
+    margin-top: 200px; /* margem para cima espaçamento*/
+    margin-right: 39px; /* margem direita*/
+    margin-left: 70px; /*margem esquerda*/
+    bottom: 7px; */margem de baixo*/
+}
+
+.doisxucro{
+    border: solid #07ede5 1px ;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    /* para evitar colocar o valor para os quatro lados manualmente é só chamar margin 50px de maneira direta para aplicar medidas de maneira geral 
+    */
+}
+#tresxucro{
+padding: 80px; 
+margin: 70px;
+}

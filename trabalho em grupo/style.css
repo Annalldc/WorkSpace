@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+}
+
+body{
+    border: solid 1px #C0C0C0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}    
+.titulo{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  }
+.texto{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3rem;
+}
+#logo{
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  height: 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+}
+
+#centro{
+  text-align: center;
+}
+#navegacao{
+  display: flex;
+  flex-direction: row-reverse;
+}
+header{
+  border: solid 2px #000;
+}
+
+img{
+  width: 100%;
+  
+}
+header{
+  background-color:#CEDFE8  ;
+}
+footer{
+  background-color:#CEDFE8 ;
+  border: solid 2px #000;
+  
+}
+
+h4{
+  text-align: center;
+
+}
+
+#logo2{
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  height: 80px;
+}
+#doces{
+  border: solid 1px #C0C0C0 ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+
+#salgados{
+  border: solid 1px #C0C0C0 ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+
+#logos{
+  text-align: right;
+}
+

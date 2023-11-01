@@ -1,0 +1,21 @@
+#pai {
+    font-size: 32px;
+}
+p {
+  font-size: 2rem;
+}
+/* o valor em duplica o tamanho da tag pai atribuido ao valor*/
+#gato{
+  width: 500px ;
+  height: 400px ;
+  float: left;
+}
+
+#gatsiu{
+  width: 500px;
+  height: 400px;
+  float: right ;
+}
+#acessa{
+  clear: none;
+}
