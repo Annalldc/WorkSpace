@@ -53,3 +53,7 @@ console.log(retirarPrimeiroElemento)
 let inseririnicio = numArray.unshift("pipoca")
 console.log(numArray)
 console.log(inseririnicio)
+
+// Apagar um elemento na posição que você quiser
+delete numArray[3]
+console.log(numArray)
