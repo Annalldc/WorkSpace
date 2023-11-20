@@ -94,18 +94,18 @@ let verificarMes = () => {
             break;
 
         case "10":
-            mySpan.innerHTML = "Mês 10 e a estação desse mês é Primavera🌷";
-            console.log("Mês 10 e a estação desse mês é Primavera 🌷");
+            mySpan.innerHTML = "Mês 10 e a estação desse mês é Primavera";
+            console.log("Mês 10 e a estação desse mês é Primavera ");
             break;
 
         case "11":
-            mySpan.innerHTML = "Mês 11 e a estação desse mês é Primavera 🌷";
-            console.log("Mês 11 e a estação desse mês é Primavera 🌷");
+            mySpan.innerHTML = "Mês 11 e a estação desse mês é Primavera ";
+            console.log("Mês 11 e a estação desse mês é Primavera ");
             break;
 
         case "12":
-            mySpan.innerHTML = "Mês 12 e a estação desse mês é Primavera 🌷";
-            console.log("Mês 12 e a estação desse mês é Primavera 🌷");
+            mySpan.innerHTML = "Mês 12 e a estação desse mês é Primavera ";
+            console.log("Mês 12 e a estação desse mês é Primavera ");
             break;
 
         default:
